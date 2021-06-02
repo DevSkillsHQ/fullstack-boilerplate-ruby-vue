@@ -67,7 +67,7 @@ npm run start:frontend # only Nuxt frontend
 5. Run the Cypress tests.
 
 ```bash
-npm run test # run project tests under test/
+npm run test # run project tests under `cypress/integration`
 ```
 
 ---
