@@ -9,7 +9,7 @@
 
 ## Getting started
 
-1. Make sure npm & node are configured on your local env. You can download those distributions for your platform [here](https://nodejs.org/en/download/)
+1. Make sure npm & node are configured on your local env. You can download those distributions for your platform [here](https://nodejs.org/en/download/).
 
 2. Build your app.
 
