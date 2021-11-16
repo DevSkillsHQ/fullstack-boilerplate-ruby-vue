@@ -1,26 +1,13 @@
-# Frontend Boilerplate Vue
+# Frontend Boilerplate Vue 3 / Vite
 
-## Project Structure
+Here comes a Vue3/Vite project boilerplate.
 
-- `components/` - app's components
-- `layouts/` - app's layouts
-- `pages/` - app's pages
-- `test/` - app's tests
+Find the source code is under `src/`.
 
-## Getting started
-
-1. Make sure npm & node are configured on your local env. You can download those distributions for your platform [here](https://nodejs.org/en/download/).
-
-2. Build your app.
+## Scripts
 
 ```bash
-npm install
-npm run build:frontend # only Nuxt frontend
-```
-
-3. Start your app.
-
-```bash
-npm install
-npm run start:frontend # only Nuxt frontend
+npm run dev # run the app for local development
+npm run build # build the app
+npm run start # start the app
 ```
