@@ -5,7 +5,7 @@ A backbone for your coding challenge.
 ## Contents
 
 - [Backend service](app-backend) - a Rails service with a `/ping` endpoint. Extend with your code.
-- [Frontend app](app-frontend) - a Vue/NuxtJS app. Extend with your code.
+- [Frontend app](app-frontend) - a Vue 3/Vite app. Extend with your code.
 - [E2E test suites](cypress/integration) - a backend and a frontend Cypress test suites. Extend with your tests.
 - [Pipeline](.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
 
@@ -23,12 +23,8 @@ A backbone for your coding challenge.
   
 ### Frontend
 
-- Nuxt 2.15.3
-
-#### Additional libs
-
-- @nuxtjs/tailwindcss (CSS)
-- jest (unit testing)
+- Vue 3
+- Vite
 
 ### Misc
 
@@ -50,18 +46,18 @@ rvm install 2.7.0
 
 ```bash
 npm install
-npm run build # both Rails backend and Nuxt frontend
+npm run build # both Rails backend and Vue frontend
 npm run build:backend # only Rails backend
-npm run build:frontend # only Nuxt frontend
+npm run build:frontend # only Vue frontend
 ```
 
 4. Start your app.
 
 ```bash
 npm install
-npm run start # both Rails backend and Nuxt frontend
+npm run start # both Rails backend and Vue frontend
 npm run start:backend # only Rails backend
-npm run start:frontend # only Nuxt frontend
+npm run start:frontend # only Vue frontend
 ```
 
 5. Run the Cypress tests.
